@@ -45,7 +45,7 @@ function g(too) {
 }
 
 // h(function(){return 5}) => 5
-(function h(f)
+(function h(f) {
     return f();
 }
 
@@ -70,8 +70,8 @@ function k(obj) {
 // m([1,2,3],[55,12,33]) => [56,14,36]
 function m(tr, gr2) {
   var resAr = [];
-    for (var i = 0; i < tr1.length; i++){
-       resArr[i] = tr1[i] + gr2[i];
+    for (var i = 0; i < tr.length; i++){
+       resArr[i] = tr[i] + gr2[i];
     }
     return resAr;
 }
