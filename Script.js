@@ -45,7 +45,7 @@ function g(too) {
 }
 
 // h(function(){return 5}) => 5
-(function h(f) {
+function h(f) {
     return f();
 }
 
